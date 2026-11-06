@@ -1,0 +1,64 @@
+*{margin: 0%; padding: 0%;}
+
+@font-face{
+    src: url(fontes/PixelOperator8-Bold.ttf);
+    font-family: Undertale;
+}
+@font-face{
+    src: url(fontes/diablo/diablo.ttf);
+    font-family: Diablo;
+}
+body{
+    background-color: rgb(248, 251, 253);
+}
+header h1{
+    text-align: center;
+    font-size: 100px;
+    margin: 30px auto 65px 30px;
+    color: rgb(29, 87, 60);
+}
+header h2{
+    text-align: center;
+    color: rgb(46, 58, 53);
+}
+section{
+    min-width: 600px;
+    width: 80vw;
+    height: 200px;
+    margin: 80px 10vw 80px 10vw;
+    padding: 10px;
+    background-color: rgb(148, 185, 168);
+    display: flex;
+    border-radius: 3px;
+}
+section h2{
+    font-size: 40px;
+    font-family: Undertale;
+    margin: 130px 2px 10px 23px;
+}
+section img{
+    width: 340px;
+    height: 150px;
+    margin: 35px auto auto 20px;
+}
+.a1{
+    background-color: rgb(231, 188, 67);
+}
+.a1 h2{
+    font-family: Diablo;
+    font-size: 60px;
+    margin: 130px 2px 10px 23px;
+}
+.a1 img{
+    position: static;
+    width: 520px;
+    height: 160px;
+    margin: 35px auto auto 200px;
+}
+footer{
+    background-color: black;
+    min-width: 100vw;
+    height: 200px;
+    text-align: center;
+    color: aliceblue;
+}
